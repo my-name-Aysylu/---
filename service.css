@@ -1,0 +1,275 @@
+body {
+    font-family: Noto Sans;
+    margin: 0 auto;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+}
+
+.menu-button {
+    display: flex;
+    color: white;
+    background-color: #0284c7;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.name {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sections {
+    font-size: 22px;
+    display: flex;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    gap: 20px; 
+}
+
+.menu-hero {
+    height: 550px;
+    background: url(images/hero.png);
+    background-position: center top;
+    background-size: cover;
+    margin: 0% auto;
+}
+
+.inner-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 59px;
+    color: #262626;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    max-width: 50%;
+}
+
+p {
+    color: #0284c7;   
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #0C4A6E;
+    max-width: 50%; 
+}
+
+.button-submit-hero {
+    margin: 0% auto;
+    max-width: 1024px;
+    padding-top: 50px;
+}
+
+.menu-submit {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #F0F9FF;
+    background-color: #0EA5E9;
+    border: 1px solid #0EA5E9;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu-caries-treatment {
+    padding-top: 50px;
+    margin: 0% auto;
+    max-width: 1024px;
+}
+
+.treatment {
+    text-align: left;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #0369A1;
+    margin: 0% auto; 
+}
+
+.caries-treatment-container {
+    vertical-align: baseline;
+    display: flex;
+}
+
+.caries {   
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: justify;
+    color: #0B4269;
+    margin: 0% auto;
+}
+
+.caries-patient {
+    display: flex;
+
+}
+
+.caries-patient-images {
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.menu-prices-service {
+    display: flex;
+    flex-direction: column;
+    margin: 0% auto;
+    max-width: 1024px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.prices-service {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #0369A1;
+}
+
+.prices-menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+gap: 20px;
+}
+
+.caries-treatment {
+    background: #F0F9FF;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #075985;
+    padding-left: 10px;
+}
+
+.treatment-seal {
+    background: #E0F2FE;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #075985;
+    padding-left: 10px;
+}
+
+.our-services {
+    display: block;
+    line-height: 54px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0369A1;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;  
+}
+
+.clinic-services {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   background-color: #0284C7;
+   align-items: center;
+   gap: 40px;
+   padding-top: 30px;
+   padding-bottom: 30px;   
+}
+
+.service-img {
+   position: relative;
+   display: flex;
+   border-radius: 20px;
+}
+
+.our-details {
+    background: #F0F9FF;
+    margin: 0 auto;
+    height: 300px;
+    padding-top: 50px;  
+}
+
+.line-detail {
+    margin: 0% auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    
+    padding-bottom: 50px; 
+}
+
+.details {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #075985;
+}
+
+.line-our {
+    margin: 0% auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-our-detail {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.our {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #075985;
+}
+
+.license {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0% auto;
+    max-width: 1024px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #075985;
+    padding-top: 50px;
+    
+       
+}

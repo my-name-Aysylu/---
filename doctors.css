@@ -1,6 +1,7 @@
 body {
     font-family: Noto Sans;
     margin: 0 auto;
+    vertical-align: baseline;
 }
 
 a {
@@ -11,22 +12,16 @@ a {
 .menu {
     position: relative;
     width: 100%;
-    
-}
-
-@media (max-width: 1024px) {
-    .menu {
-        width: 100%;
-         } 
 }
 
 .menu-button {
     display: flex;
     color: white;
     background-color: #0284c7;
-    
-    
+    align-items: center;
+    justify-content: space-between;   
 }
+
 .name {
     font-size: 26px;
     font-weight: 700;
@@ -45,12 +40,25 @@ a {
     gap: 20px; 
 }
 
+.menu-clinic-doctors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0% auto;
+    max-width: 1024px;
+}
+
 .specialists-clinic {
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 48px;
     line-height: 59px; 
     text-align: center;
     color: #0369A1;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 p {
     font-weight: 600;
@@ -58,6 +66,8 @@ p {
     line-height: 33px;
     text-align: center;
     color: #737373;
+    margin: 0% auto;
+    max-width: 1024px;
 }
 
 .search {
@@ -65,14 +75,22 @@ p {
     border: 1px solid #BAE6FD;
     border-radius: 20px;
     height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
 }
 
 .menu-specialists {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
+   margin: 0% auto;
+   
 }
 
 .menu-doctors {
@@ -118,7 +136,38 @@ p {
 
 .our-details {
     background: #F0F9FF;
+    margin: 0 auto;
+    height: 300px;
+    padding-top: 50px;  
+}
+
+.line-detail {
+    margin: 0% auto;
+    max-width: 1024px;
     display: flex;
+    justify-content: space-between;
+    
+    padding-bottom: 50px; 
+}
+
+.details {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #075985;
+}
+
+.line-our {
+    margin: 0% auto;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-our-detail {
+    display: flex;
+    flex-direction: column;
 }
 
 .our {
@@ -128,16 +177,15 @@ p {
     color: #075985;
 }
 
-.details {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    color: #075985;
-}
-
 .license {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0% auto;
+    max-width: 1024px;
     font-weight: 400;
     font-size: 17px;
     line-height: 23px;
     color: #075985;
+    padding-top: 50px; 
 }
