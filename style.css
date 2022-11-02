@@ -16,8 +16,7 @@ a {
 
 .menu-button {
     color: white;
-    background-color: #0284c7;
-       
+    background-color: #0284c7;    
 }
 
 .menu-name-dento {
@@ -45,6 +44,43 @@ a {
     text-align: center;
     gap: 20px; 
 }
+
+@media (max-width: 760px) {
+    .sections {
+        display: none;
+    }
+}
+
+@media (min-width: 761px) {
+    .mobil-sections {
+        display: none;
+    }
+}
+
+button {
+    background-color: #0284C7;
+    color: white;
+    border-color: #0284C7;
+    border: 1px solid #0284C7; 
+    line-height: 22px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: right;
+}
+
+.mobil {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    gap: 20px; 
+    background-color: #0284C7;
+    display: none;
+}
+ 
 
 .menu-hero {
     height: 550px;
